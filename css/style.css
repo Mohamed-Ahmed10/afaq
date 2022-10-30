@@ -1,0 +1,224 @@
+*
+{
+	box-sizing: border-box;
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	direction: rtl;
+	background: linear-gradient(to bottom, #ffffff 0%, #bbb 100%);
+	text-align: right;
+	font-family: 'Cairo', sans-serif;
+	text-align: center;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+
+    -o-user-select: none;
+    user-select: none; 
+}
+.upper_nav
+{
+	width: 100%;
+	min-height: 70px;
+	background:#C8C8C8;
+	text-align: center;
+	padding-top: 10px
+}
+.fa-whatsapp
+{
+	color: #25d366
+}
+nav
+{
+	text-align: center;
+	background:#faa732;
+	position: relative;
+	font-size: 18px
+}
+nav a
+{
+	color: #FFF !important
+}
+.nav-item
+{
+	margin: 0 15px;
+}
+.dropdown-item:hover
+{
+	background: #007bff
+}
+.navbar-brand img
+{
+	height: 100px;
+	width: 100px
+}
+.dropdown-menu
+{
+	background: #777
+}
+.form_div
+{
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	position: relative;
+	padding:20px 0;
+	min-height: 700px;
+}
+.form_overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background:#0000005c;
+}
+form
+{
+    width: 400px;
+    height: 600px;
+    border: 3px solid #8c8c8c;
+    border-radius: 30px;
+    background-color: rgba(255,255,255,0.5);
+    margin: 50px auto;
+    z-index: 1;
+}
+form h1
+{
+    text-align: center;
+    background: none;
+}
+form label
+{
+    display: block;
+    margin: 10px 0 0 0 ;
+    text-align: center;
+    background: none;
+    font-size: 25px;
+    font-family:Andalus;
+}
+form .input
+{
+    text-align: center;
+    display: block;
+    position: relative;
+    right: 6%;
+    background: #0000003b;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+	outline:none;
+}
+form button
+{
+    float: left;
+    margin: 15px 30px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #d6d6d6
+}
+.free
+{
+	padding:40px;
+	background: #FAA732;
+	width: 100%;
+	min-height: 50px;
+}
+.free h2
+{
+	display: inline-block;
+}
+.btn-primary
+{
+	font-size: 22px
+}
+/* start services*/
+.services
+{
+	background: #e4e4e4;
+	padding-top: 50px;
+}
+.services h1 ,
+.services h2 ,
+.services h3 
+{
+	text-align: center;
+}
+.services h3 
+{
+	padding-bottom: 50px;
+	line-height: 2
+}
+.services i
+{
+	padding: 5px
+}
+.table_1 ,.table_2
+{
+	text-align: center;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.table_1
+{
+	font-size: 15px;
+}
+.table_1 img
+{
+	height: 50px
+}
+.table_1 .row div:first-child
+{
+	font-weight: bold;
+	font-size: 20px
+}
+.table_2 .col-sm-4
+{
+	width: 33%;
+}
+.fa-check
+{
+	color: #2ecc71
+}
+.fa-times
+{
+	color: #F00
+}
+footer
+{
+	min-height: 200px;
+	background: #232323;
+	color: #fff;
+	padding-top: 50px;
+	margin-top: 50px;
+	line-height: 50px;
+}
+.fa-twitter
+{
+	color: #1da1f2;
+	margin:10px;
+}
+.fa-instagram
+{
+	color: #e1306c;
+	margin:10px;
+}
+.img-thumbnail
+{
+	height: 300px;
+    width: 400px;
+    margin-top: 20px
+}
+/* end services*/
+.footer 
+{
+	min-height: 40px;
+	background-color: #1d1d1d;
+	line-height: 40px;
+	text-align: center;
+	color: #CCC;
+	font-size: 20px
+}
